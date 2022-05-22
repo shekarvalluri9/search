@@ -1,0 +1,22 @@
+body {
+background-color: #f7f4f2;
+display: block;
+text-align: center;
+}
+/* this is for class xyz */
+.xyz {
+    flex: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-direction: row-reverse;
+    transform-box:boder-box;
+    border-style: initial;
+    padding: 5px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.header{
+    border-inline-style: ;
+}
+.action{
+    border-radius: 10px;
+}
