@@ -8,26 +8,36 @@
 
     </head>
     <body>
-        
-          <div class="xl xl" id="or xl">
-              <div class="xl xl"></div>
-          <!-- Google image search and Google advanced search -->
-      <a href="https://www.google.com.au/imghp?hl=en&ogbl" target="top">googleimagesearch</a>
-      <!-- above links in upper right of the page should take back to the Google search-->
-      <div class="xl xl">
-     <a href="https://google.com/search">Googleadvancedsearch</a>
-      </div>
-          </div> 
+        <header>
+            <ul>
+                <!-- Google image search and Google advanced search -->
+                <div class="lists" >
+                    <li><a href="https://www.google.com.au/imghp?hl=en&ogbl">imagesearch</a></li>
+                </div>
+                    <!-- above links in upper right of the page should take back to the Google search-->
+                  <div class="lists"> 
+                      <!-- blue button and white text -->
+                      <li><a href="https://google.com/search">advanced search</a></li>
+                      <input name="options" list="options"  placehlder="options">
+                          <datalist id="options">
+                              <option value="all of these">
+                                  <option value="this exact word or phase">
+                                      <option value="Any of these words">
+                                          <option value="none of these words">
+                                    </div>
+            </ul>
+        </header>
+           <h1>Google</h1>
        
              <!--arounded corners and centered -->
-             <form action="https://google.com/search">
-                 <input type="text" name="q">
+             <h2>
+                 <form action="https://google.com/search">
+                     <input type="text" name="q">
+             </h2>
                  <center>
-                 <input type="submit" value="Google Search">
+                 <input type="submit" value="Google Search" name="btn">
                  <input class="xyz" value="I'm feeling lucky" name="btn" type="submit">
-            </center>
-           
-        
+                 </center>
         </form>
     </body>
 </html>
