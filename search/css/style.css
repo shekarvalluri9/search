@@ -12,9 +12,8 @@ a:hover {
     color: blue;
     background-color: transparent;
     
+  
 }
-
-
 ul {
 display: flex;
 flex-wrap: nowrap;
