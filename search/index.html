@@ -4,7 +4,8 @@
         <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Search</title>
-        <link href="./css/style.css" rel="stylesheet">
+        <link href="./page1css/shared.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" type="text/css" href="shared.css" />
 
     </head>
     <body>
@@ -38,3 +39,32 @@
         </form>
     </body>
 </html>
+
+
+
+
+<div class="advanced-search-container">
+    <form action="https://www.google.com/search" method="get">
+        <label>Find pages with...</label>
+        <div class="whitespace"></div>
+        <label>To do this in the search box.</label>
+        <div class="form-group">
+            <label>All these words:</label>
+            <input type="text" name="as_q">
+            <div class="clarification">
+                Type the important words: <span class="monospace">tri-colour rat terrier</span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label>This exact word or phrase:</label>
+            <input type="text" name="as_epq">
+            <div class="clarification">
+                Put exact words in quotes: <span class="monospace">"rat terrier"</span>
+</div>
+        </div>
+        <div class="form-group">
+            <label>Any of these words: </label>
+            <input type="text" name="as_oq">
+            <div class="clarification">
+                Type OR between all the words you want: <span class="monospace">miniature OR standard</span>
+</div>

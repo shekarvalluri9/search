@@ -5,29 +5,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
-    <title> Google adavanced search</title>
+    <div class="Google advanced logo">
+    <title> Google adavanced search page</title>
+    </div>
+    <!-- css link -->
+    <link href="./page3css/shared.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="shared.css" />
+
 </head>
 <body>
     <!-- advanced search -->
-    <div class="advanced search"></div>
+
     <label>advanced-search</label>
-    <div>
-        <form action="https://google.com/search" method="get">   
+
+    <!-- link navigation to google page -->
+    <section> 
+    <div class="bt-Google">
+        <div class="b-Google">
+            <a href="https://google.com/search">Google search</a>
+         </div>
+     </div>
+    </section>
+        <form action="https://google.com/search" method="get"> 
+
+            <label>Find pages with:</label>
+       <ol>
         
-            <label for="find pages with "></label>
-            <input type="text" list="options" placeholder="options" >
+          <li>All of these words: <input type="text" name="q"></li> 
+          <li> This exact word  or phase: <input type="text" name="q"></li> 
+          <li> Any of these words: <input type="text" name="q"></li> 
+          <li> None of these words: <input type="text" name="q"></li> 
+          <input type="submit" class="blue-button" value="Google advancedsearch"> 
+              
+       </ol>
     </div>
-    <!-- find all pages -->
-    <datalist id="options">
-        <!-- four options stacked vertically and left aligned -->
-        <option value="all of these">
-            <option value="this exact word or phase">
-                <option value="Any of these words">
-                    <option value="none of these words"></option>
-                    <div class="right-align">
-                        <input type="submit" class="blue-button" value="Google Advanced Search"> 
-                    </div>  
 </form>
 </body>
 </html>
