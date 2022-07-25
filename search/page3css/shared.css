@@ -1,12 +1,30 @@
-.Google-advanced-logo {
-    background-color: blueviolet;
-}
+
  .blue-button {
-    background-color: blue;
-    text-align:right ;
-    float: inline-end;
+    text-decoration: none;
+    color: rgb(90, 36, 216);
+    text-align: center;
  
  }
- .a {
-    float: inline-end;
+ .b-Google {
+    text-align: right;
+    color: blue;
+   }
+   a {
+    text-decoration: none;
+   color: blue;
+   max-width: fit-content;
  }
+ nav {
+   text-align: center;
+   max-width: 100%;
+   max-height: 100%;
+   border-top: 30px;
+   color:rgb(144, 0, 255);
+ }
+section {
+   align-items:left;
+}
+li input {
+   text-align: center;
+   width: 25em;
+}
