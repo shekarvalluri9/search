@@ -1,9 +1,14 @@
 
  .blue-button {
     text-decoration: none;
-    color: rgb(90, 36, 216);
+    color: rgb(14, 14, 234);
     text-align: center;
- 
+   padding: 5px;
+ }
+ .equal-size {
+   max-width: 25em;
+   max-height: fit-content;
+
  }
  .b-Google {
     text-align: right;

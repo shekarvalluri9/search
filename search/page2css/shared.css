@@ -1,4 +1,5 @@
 a {
+    text-decoration: none;
 float: right;
 color: blue;
 }
@@ -11,24 +12,19 @@ object-position: center;
 color: rgb(0, 115, 255);
 object-fit: contain;
 }
-#G {
-    color: blue;
-}
-#o1 {
-color: brown;
-}
-#o2 {
-color: yellow;
-}
-#g {
-color: blue;
-}
-#l {
-color:green ;
-}
-#e {
-color:brown ;
+.Google-image-logo {
+   object-position: center;
+   width: auto;
+   object-fit: contain;
+   margin-top: 20px;
+   margin-bottom: 10px;
+   text-align: center;
+   align-content: center;
 }
 h2 input {
     border-radius: 30px;
+    box-sizing: border-box;
+    size:30rem;
+    font-size: 100%;
+      
 }

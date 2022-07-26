@@ -26,24 +26,30 @@ h1 {
     text-align: center;
     font: size 50px;
     display: block;
-    background-origin: padding-box;
+    font-size: 4em;
 }
  .xyz {
      margin-top: 20px;
  }
  h2 input {
      border-radius: 30px;
+     font-size: 100%;
  }
- /* advanced page css */
-.Google-advanced-logo {
-    background-color: blueviolet;
+#G {
+    color: blue;
 }
- .blue-button {
-    background-color: blue;
-    text-align:right ;
-    float: inline-end;
- 
- }
- .a {
-    float: inline-end;
- }
+#o1 {
+color: brown;
+}
+#o2 {
+    color: yellow;
+}
+#g {
+    color: blue;
+}
+#L {
+    color: blue;
+}
+#E {
+    color: brown;
+}
