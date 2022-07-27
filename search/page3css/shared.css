@@ -8,7 +8,7 @@
  .equal-size {
    max-width: 25em;
    max-height: fit-content;
-
+   font-size: 100%;
  }
  .b-Google {
     text-align: right;
