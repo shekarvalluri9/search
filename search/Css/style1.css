@@ -1,0 +1,41 @@
+.Google-images p {
+    display: inline-block;
+    width: auto;
+    height: 30px;
+    text-align: center;
+    margin: 30px;
+    
+}
+.Google-images span{
+    display: inline-block;
+    font-size: large;
+    text-align: center;
+    align-items: center;
+    
+}
+.color-blue{
+    color: blue;
+    align-items: center;
+}
+.color-red{
+    color:red;
+}
+.color-yellow{
+    color: hsl(43, 78%, 54%);
+}
+.color-green{
+    color: green;
+}
+
+.image1{
+    width: 300px;
+    align-items: center;
+    border-radius: 20px;
+}
+button{
+    margin: 8px;
+}
+div{
+    text-align: center;
+    align-items: center;
+}

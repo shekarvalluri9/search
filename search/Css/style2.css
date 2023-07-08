@@ -1,0 +1,40 @@
+h1{
+    color: rgba(240, 69, 69, 0.776);
+    font-family:sans-serif;
+    margin:100px;
+    text-align: left;
+
+}
+a{
+    margin: 20px;
+    color: blue;
+    font-size: larger;
+}
+form{
+    text-align: left;
+    width: 700px;
+}
+button{
+    background-color: blue;
+    color: white;   
+    display: flex;
+    float: center;
+}
+label{
+    display: inline-block;
+    text-align: left;
+    font-size: larger;
+    width: 200px;margin: 10px;
+   
+}
+input{
+    width: 300px;
+    height:20px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(240, 255, 255);
+    margin: 20px;
+    
+}
